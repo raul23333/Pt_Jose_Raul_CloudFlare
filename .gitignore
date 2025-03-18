@@ -1,0 +1,46 @@
+# Archivos de sistema operativo
+.DS_Store        # macOS
+Thumbs.db         # Windows
+
+# Archivos de logs
+*.log
+
+# Dependencias de Node.js (si usas Node.js)
+node_modules/
+
+# Archivos de compilación
+/dist/
+build/
+
+# Archivos de entorno local
+.env
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos temporales de edición
+*~
+
+# Archivos de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos generados por Java
+*.class
+*.jar
+*.war
+
+# Archivos generados por C#
+*.exe
+*.dll
+
+# Archivos de distribución (si usas algún empaquetador de JS)
+package-lock.json
+yarn.lock
+
+# Otros archivos de configuración de herramientas
+.vscode/
+.idea/
+*.swp           # Archivos de vim
