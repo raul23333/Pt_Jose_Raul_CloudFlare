@@ -7,5 +7,17 @@
 </head>
 <body>
   <h1>Benvingut a la nostre pàgina web</h1>
+  <button id="verd">Fons verd</button>
+  <button id="blau">Fons blau</button>
+  <script>
+    const verd = document.getElementById('verd')
+        verd.addEventListener('click', function() {
+            document.body.style.background = 'green'
+        });
+    const blau = document.getElementById('blau')
+        blau.addEventListener('click', function() {
+            document.body.style.background = 'blue'
+        });
+  </script>
 </body>
 </html>
