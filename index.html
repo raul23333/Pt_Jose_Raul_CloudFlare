@@ -7,16 +7,12 @@
 </head>
 <body>
   <h1>Benvingut a la nostre pàgina web</h1>
-  <button id="verd">Fons verd</button>
-  <button id="blau">Fons blau</button>
+  <button id="ale">Fons aleatori</button>
   <script>
-    const verd = document.getElementById('verd')
-        verd.addEventListener('click', function() {
-            document.body.style.background = 'green'
-        });
-    const blau = document.getElementById('blau')
-        blau.addEventListener('click', function() {
-            document.body.style.background = 'blue'
+    const random = document.getElementById('ale')
+        random.addEventListener('click', function() {
+            let random = "#" + Math.floor(Math.random()* 12495392).toString(16)
+            document.body.style.background = random
         });
   </script>
 </body>
